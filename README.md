@@ -2,7 +2,7 @@
 
 Servz is a Java library which facilitates writing long-lived binaries, such as servers or daemons, in a modular way.
 
-Each bit of logic is implemented as a Servz module and the final binary is created by assembling the modules into a Servz server. In addition to providing the skeleton for running the binaries, the Servz libary also comes with a set of modules used for common logic, such as starting an http server.
+Each bit of logic is implemented as a Servz module and the final binary is created by assembling the modules into a Servz server. In addition to providing the skeleton for running the binaries, the Servz library also comes with a set of modules used for common logic, such as starting an http server.
 
 ## Requirements ##
 

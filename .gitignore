@@ -1,0 +1,9 @@
+// Bazel stuff.
+bazel*
+
+// Vim stuff.
+*swp
+
+// Eclipse project.
+.classpath*
+.project*

@@ -8,15 +8,15 @@ Each bit of logic is implemented as a Servz module and the final binary is creat
 
 Servz is built using Bazel. As such, the only dependencies required to build are:
 
-* Bazel
-* Java runtime
+* [Bazel](http://bazel.io)
+* [Java](https://www.java.com/en/download)
 
 Bazel takes care of pulling down the Java libraries which Servz depends on, such as:
 
-* Dagger
-* Guava
-* Netty
-* Testing libraries such as JUnit, Mockito, Truth.
+* [Dagger](http://google.github.io/dagger)
+* [Guava](https://github.com/google/guava)
+* [Netty](https://github.com/netty/netty)
+* Testing libraries such as [JUnit](http://junit.org), [Mockito](http://mockito.org), [Truth](https://github.com/google/truth).
 
 ## Getting started ##
 

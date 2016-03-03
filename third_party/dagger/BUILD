@@ -6,9 +6,9 @@ java_library(
     ":dagger-compiler",
   ],
   exports = [
-    "@dagger-artifact//jar",
-    "@dagger-producers-artifact//jar",
-    "@javax-inject-artifact//jar",
+    "@dagger_artifact//jar",
+    "@dagger_producers_artifact//jar",
+    "@javax_inject_artifact//jar",
   ],
   licenses = ["permissive"],
 )
@@ -16,11 +16,11 @@ java_library(
 java_plugin(
   name = "dagger-compiler",
   deps = [
-    "@dagger-compiler-artifact//jar",
-    "@dagger-producers-artifact//jar",
+    "@dagger_compiler_artifact//jar",
+    "@dagger_producers_artifact//jar",
     "//third_party/guava",
-    "@javax-inject-artifact//jar",
-    "@dagger-artifact//jar",
+    "@javax_inject_artifact//jar",
+    "@dagger_artifact//jar",
   ],
   processor_class = "dagger.internal.codegen.ComponentProcessor",
   licenses = ["permissive"],

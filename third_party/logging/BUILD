@@ -3,7 +3,7 @@ package(default_visibility = ["//visibility:public"])
 java_library(
   name = "logging-api",
   exports = [
-    "@slf4j-api-artifact//jar",
+    "@slf4j_api_artifact//jar",
   ],
   licenses = ["permissive"],
 )
@@ -11,7 +11,7 @@ java_library(
 java_library(
   name = "logging-impl-stdout",
   exports = [
-    "@slf4j-simple-artifact//jar",
+    "@slf4j_simple_artifact//jar",
   ],
   licenses = ["permissive"],
 )
